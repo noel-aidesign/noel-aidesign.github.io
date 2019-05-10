@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Find Pofile Blogger</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<style> 
+body{background-image:url('coveraikatsuostno3.jpg');background-position:top left;-webkit-animation:mymovebg 2s linear 0s infinite normal;animation:mymovebg 2s linear 0s infinite normal}
+@-webkit-keyframes mymovebg{0%{background-position:top left}100%{background-position:bottom right}}
+@keyframes mymovebg{0%{background-position:top left}100%{background-position:bottom right}}
+.ai-box{margin:180px auto 0;width:400px;-webkit-animation:bounceIn 1s ease 0s;animation:bounceIn 1s ease-out 0s}
+.ai-download{float:right}
+@media only screen and (max-width:400px){.ai-box{width:100%;};}
+@-webkit-keyframes bounceIn{from,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(0.215,0.610,0.355,1.000);animation-timing-function:cubic-bezier(0.215,0.610,0.355,1.000)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+@keyframes bounceIn{from,20%,40%,60%,80%,to{-webkit-animation-timing-function:cubic-bezier(0.215,0.610,0.355,1.000);animation-timing-function:cubic-bezier(0.215,0.610,0.355,1.000)}0%{opacity:0;-webkit-transform:scale3d(.3,.3,.3);transform:scale3d(.3,.3,.3)}20%{-webkit-transform:scale3d(1.1,1.1,1.1);transform:scale3d(1.1,1.1,1.1)}40%{-webkit-transform:scale3d(.9,.9,.9);transform:scale3d(.9,.9,.9)}60%{opacity:1;-webkit-transform:scale3d(1.03,1.03,1.03);transform:scale3d(1.03,1.03,1.03)}80%{-webkit-transform:scale3d(.97,.97,.97);transform:scale3d(.97,.97,.97)}to{opacity:1;-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1)}}
+
+</style>
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+ 
+ <!-- SOUND FX CLICK By: KangRian.com -->
+<audio id='klik1' src='https://docs.google.com/uc?export=open&amp;id=14-v4YvsZgXItFdNL3mDl6TTu07Ji6_Vf'></audio>
+<script>
+// <![CDATA[
+function klik1() {
+    var audio = document.getElementById('klik1');
+    audio.play();
+}
+// SoundFX Global Tag!
+$(document).ready(function(){
+        $("a, button").attr("onclick", "klik1()");
+});
+//]]></script>
+
+
+ <div class="w3-card w3-white ai-box">
+  <div class="w3-panel w3-blue">
+    <p>Cari Blogger Profil:</p>
+  </div>
+  
+  <form class="w3-container w3-card-4" action="https://www.blogger.com/profile-find.g" target="_blank">
+
+<label>Jenis</label>
+  <select class="w3-select" name="t">
+    <option value="" disabled>Choose your option</option>
+    <option value="i" selected>Minat</option>
+    <option value="o">Pekerjaan</option>
+    <option value="b">Buku</option>
+    <option value="m">Film</option>
+    <option value="s">Musik</option>
+  </select>
+  
+  <label>Kata Kunci</label>
+  <input class="w3-input"  name="q" type="text">
+
+  <p><button class="w3-btn w3-block w3-red">Cari</button></p>
+</form>
+  
+</div> 
+ 
+
+</body>
+</html> 
